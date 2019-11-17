@@ -1,0 +1,15 @@
+RewriteEngine On
+SetEnvIf Host yoursite.tld$ CI_ENV=production
+SetEnvIf Host test.yoursite.tld$ CI_ENV=testing
+SetEnvIf Host localhost$ CI_ENV=development
+ 
+# remove trailing slashes from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.*)/$
+RewriteRule ^(.+)/$ $1 [R=307,L]
+ 
+ 
+RewriteCond $1 !^(index\\.php|resources|robots\\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]

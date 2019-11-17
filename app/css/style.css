@@ -1,0 +1,352 @@
+
+footer, header, main {
+    padding-left: 240px;
+}
+@media only screen and (max-width: 992px) {
+footer, header, main {
+    padding-left: 0;
+}
+}
+.newsfeed .col-md-6 {
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+.main-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+}
+main {
+    padding-top: 15px;
+}
+}
+@media only screen and (min-width: 768px) {
+.main-wrapper {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+main {
+    padding-top: 15px;
+}
+}
+@media only screen and (min-width: 992px) {
+.main-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main {
+    padding-top: 90px;
+}
+}
+@media only screen and (min-width: 1400px) {
+.main-wrapper {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+}
+.pt-color {
+    background-color: #45526e !important;
+}
+.st-color {
+    background-color: #1c2331 !important;
+}
+.et-color {
+    background-color: #3f729b !important;
+}
+.btn-ptc {
+    background-color: #45526e !important;
+}
+.btn-ptc:focus, .btn-ptc:hover {
+    background-color: #59698d !important;
+}
+.btn-stc {
+    background-color: #1c2331 !important;
+}
+.btn-stc:focus, .btn-stc:hover {
+    background-color: #2f3a51 !important;
+}
+#comments button, #comments html input[type="button"], #comments input[type="reset"], #comments input[type="submit"], .btn-etc {
+    background-color: #3f729b !important;
+}
+#comments button:focus, #comments button:hover, #comments html input[type="button"]:focus, #comments html input[type="button"]:hover, #comments input[type="reset"]:focus, #comments input[type="reset"]:hover, #comments input[type="submit"]:focus, #comments input[type="submit"]:hover, .btn-etc:focus, .btn-etc:hover {
+    background-color: #548cb9 !important;
+}
+.wpcf7-submit, div.bbp-submit-wrapper button {
+    background-color: #45526e !important;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff !important;
+    cursor: pointer;
+    line-height: 1.33333;
+    margin: 10px;
+    outline: 0 none !important;
+    padding: 5px 22px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-out 0s;
+}
+.wpcf7-submit:focus, .wpcf7-submit:hover, div.bbp-submit-wrapper button:focus, div.bbp-submit-wrapper button:hover {
+    background-color: #59698d !important;
+}
+@media only screen and (min-width: 992px) {
+footer.page-footer .col-md-4 {
+    margin-left: 2rem;
+}
+}
+.price-select {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+@media only screen and (max-width: 992px) {
+.price-select {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+}
+@media only screen and (max-width: 768px) {
+.price-select {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+}
+@media only screen and (max-width: 500px) {
+.price-select {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+.side-nav {
+    background-color: #1c2331;
+}
+.side-nav .logo-wrapper {
+/*    background: rgba(0, 0, 0, 0) url("http://mdbootstrap.com/images/regular/city/lq/img%20(1).jpg") no-repeat scroll center center / cover ;*/
+}
+.side-nav li {
+    background-color: #1c2331;
+}
+.side-nav .collapsible a.active, .side-nav .collapsible a:active, .side-nav li.active, .side-nav li:hover {
+    background-color: #2d384e;
+}
+.side-nav p {
+    color: #fff;
+}
+.side-nav .collapsible a {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+    height: 45px;
+    line-height: 45px;
+}
+.side-nav .collapsible .collapsible-body li {
+    border-top: 1px solid #45526e;
+}
+.side-nav .collapsible .collapsible-body a {
+    height: 32px;
+    line-height: 32px;
+}
+.side-nav .social {
+    border-bottom: 1px solid #2d384e;
+    border-top: 1px solid #2d384e;
+}
+.side-nav .social a {
+    color: #fff;
+}
+.side-nav #menu-item-403 {
+    border-top: 1px solid #45526e;
+}
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+    height: 200px;
+}
+#bbpress-forums #bbp-search-form {
+    margin-bottom: 2rem;
+}
+#bbp_search_submit {
+    background-color: #45526e !important;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.05rem;
+    line-height: 1.11;
+    margin: 6px;
+    padding: 0.6rem 1.05rem;
+    transition: all 0.2s ease-out 0s;
+}
+#bbp_search_submit:hover {
+    color: #fff;
+}
+#bbp_search_submit.active, #bbp_search_submit:active, #bbp_search_submit:focus {
+    color: #fff;
+    outline: 0 none;
+}
+#bbp_search_submit:focus, #bbp_search_submit:hover {
+    background-color: #59698d !important;
+}
+.presentation-wrapper .intro-section {
+    background-image: url("http://brandflow.pl/wp-content/uploads/2015/09/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: -80px;
+    padding-top: 220px;
+    text-align: center;
+}
+.presentation-wrapper .about-section {
+    background: #eee none repeat scroll 0 0;
+    height: 100px;
+    padding-top: 150px;
+    text-align: center;
+}
+.presentation-wrapper .material-icons {
+    font-size: 30px;
+}
+.presentation-wrapper .top-nav-collapse {
+    background-color: #607d8b;
+}
+.presentation-wrapper .content-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.documentation .doc-title {
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    margin: 5rem 0 2rem;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+.documentation .doc-title.doc-first {
+    border-top: medium none;
+    margin-top: 0;
+    padding-top: 1.2rem;
+}
+.documentation .doc-title.doc-subtitle {
+    border-top: medium none;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    text-transform: none;
+}
+.documentation .doc-title .btn {
+    margin-top: -2px;
+}
+@media (max-width: 776px) {
+.documentation .doc-title .btn {
+    display: block;
+    margin-top: 1rem;
+}
+}
+.documentation .col-example {
+    background-color: #3f729b;
+    border: 2px solid #1c2331;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    padding: 1rem;
+}
+.documentation .is-visible {
+    background-color: #bbdefb;
+}
+.documentation .is-hidden {
+    color: #9e9e9e;
+}
+.documentation .scroll-box {
+    position: relative;
+}
+.documentation .scrollspy-example {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 1rem;
+    position: relative;
+}
+.documentation footer {
+    padding-left: 0;
+}
+.color-block {
+    color: #fff;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+}
+.color-block-dark {
+    color: #fff;
+    height: 130px;
+    padding: 15px;
+    text-align: center;
+}
+.dynamic-color .col-md-4 {
+    margin-bottom: 2rem;
+}
+.dynamic-color .col-md-4 div {
+    padding: 7px 20px;
+}
+#comments .comment-text {
+    margin-top: 1rem;
+}
+#comments button, #comments html input[type="button"], #comments input[type="reset"], #comments input[type="submit"] {
+    -moz-user-select: none;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 6px;
+    padding: 0.375rem 1rem;
+    text-align: center;
+    transition: all 0.2s ease-out 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#comments button:hover, #comments html input[type="button"]:hover, #comments input[type="reset"]:hover, #comments input[type="submit"]:hover {
+    color: #fff;
+}
+#comments textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #4285f4;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    box-sizing: content-box;
+    font-size: 1rem;
+    height: 3rem;
+    margin: 0 0 15px;
+    outline: 0 none;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.author-box, .comments-section {
+    margin-bottom: 2rem;
+}
+#comments textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+#comments textarea:focus:not([readonly]) + label {
+    color: #4285f4;
+}
+#comments textarea + label::after {
+    content: "";
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 65px;
+    transition: opacity 0.2s ease-out 0s, color 0.2s ease-out 0s;
+}
+.comments-section {
+    padding-top: 1rem;
+}
+.tutorial-content pre.code-toolbar {
+    max-height: 600px !important;
+}
+.tutorial-content p {
+    text-align: justify;
+}
+.bbp-author-ip {
+    display: none;
+}

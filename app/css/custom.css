@@ -1,0 +1,52 @@
+  body {
+      /*            background: url("http://mdbootstrap.com/images/regular/nature/img%20(17).jpg") no-repeat center center fixed;*/
+      background-size: cover;
+  }
+  .button-collapse {
+      font-size: 2rem;
+      position: absolute;
+      padding: 1.5rem;
+      color: #fff;
+  }
+  .button-collapse:hover {
+      color: #fff;
+  }
+  .dark-side-nav .logo-wrapper {
+      background: rgba(0, 0, 0, 0) url("../img/logoscreen.png") no-repeat scroll center center / cover;
+  }
+  .mylogo {
+      text-shadow: 0px 0px rgb(48, 117, 165), 1px 1px rgb(48, 118, 166), 2px 2px rgb(48, 119, 167), 3px 3px rgb(49, 119, 168), 4px 4px rgb(49, 120, 169), 5px 5px rgb(49, 121, 171), 6px 6px rgb(50, 122, 172), 7px 7px rgb(50, 123, 173), 8px 8px rgb(50, 124, 174), 9px 9px rgb(51, 125, 175), 10px 10px rgb(51, 126, 177), 11px 11px rgb(51, 126, 178), 12px 12px rgb(52, 127, 179), 13px 13px rgb(52, 128, 180), 14px 14px rgb(53, 129, 182), 15px 15px rgb(53, 130, 183), 16px 16px rgb(53, 131, 184), 17px 17px rgb(54, 132, 18...0), 47px 47px rgb(64, 157, 222), 48px 48px rgb(64, 158, 223), 49px 49px rgb(65, 159, 224), 50px 50px rgb(65, 160, 225), 51px 51px rgb(66, 161, 226), 52px 52px rgb(66, 162, 228), 53px 53px rgb(66, 163, 229), 54px 54px rgb(67, 164, 230), 55px 55px rgb(67, 164, 231), 56px 56px rgb(67, 165, 233), 57px 57px rgb(68, 166, 234);
+      font-size: 70px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(68, 167, 235);
+      height: 112px;
+      width: 112px;
+      line-height: 112px;
+      border-radius: 15%;
+      overflow: hidden;
+      text-align: center;
+  }
+  .myforminput {
+      border: 1px solid #bcbcbc !important;
+      padding: 4px 5px;
+      height: 25px !important;
+  }
+.myforminput: focus{
+    border-bottom: 1px solid #303784 !important;
+    border-shadow:0 0 0 0 !important;
+}
+.md-form label[class="mylabel"] {
+    top: 5px;
+    left: 12px;
+}
+.md-form label.active {
+    transform: translateY(-160%);
+}
+.login-form, .register-form {
+    margin: 10% auto;
+    width: 380px;
+}
+.myerror {
+  font-size: 10px;
+  color:#d9534f;
+}
